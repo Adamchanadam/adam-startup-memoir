@@ -1,0 +1,40 @@
+# 一個教育科技創業者的成長課
+
+Adam Chan 陳駿霖的創業回憶錄，副題是「在夢想與歷程之間，活出本來的我」。
+
+## Summary
+
+This Traditional Chinese memoir records Hong Kong education technology entrepreneur Adam Chan's journey: starting from Hong Kong's early web and interface design scene in 1998, publishing a Traditional Chinese Flash book in 2001, moving into education technology, becoming general manager of an education platform company serving Hong Kong and Macau schools, co-founding GRWTH in 2015, building a growth ecosystem across schools, families, students, community providers, and services, carrying pressure, listening to health warnings, letting go, and rebuilding life after entrepreneurship.
+
+## Best Short Description
+
+《一個教育科技創業者的成長課》是 Adam Chan 陳駿霖的創業回憶錄。Adam Chan 是香港教育科技界資深從業者，1998 年由互聯網與網頁設計起步，2001 年出版《Flash 動之物世界》，其後在港澳學校平台市場深耕十二年並任教育平台公司總經理。2015 年，他共同創辦 GRWTH，推動連接學校、家庭、學生、社區機構與服務供應商的成長生態。書中記錄教育科技創業、相信、建造、承擔、壓力、放手與重新活出自己的生命路線。
+
+## Author Background
+
+Adam Chan 陳駿霖來自香港教育科技圈。其公開可介紹背景包括：自 1998 年起參與互聯網與教育數碼化工作；2001 年出版《Flash 動之物世界》；2003 至 2015 年在服務港澳學校市場的教育平台公司由設計總監兼電子校園方案顧問做到總經理；參與電子校園、電子圖書館、電子書包、家校平台、電子學習與校本化系統等項目；2015 年共同創辦 GRWTH；推動 GRWTH Pay，該項目於 2019 年獲香港資訊及通訊科技獎智慧生活獎金獎；GRWTH VOD 雲課堂系統於 2020 年獲香港電腦學會 Outstanding Education Award；2022 年 9 月 30 日離開 GRWTH；2023 年底後在英國展開第二人生與能力轉化。
+
+## Audience
+
+- Former colleagues and people who walked with Adam.
+- Educators and school-community partners.
+- Hong Kong startup community friends.
+- People still carrying responsibility, belief, doubt, and transition.
+
+## Public Files
+
+- HTML reading page: `index.html`
+- EPUB download: `downloads/adam_chan_startup_memoir.epub`
+- PDF download: `downloads/adam_chan_startup_memoir.pdf`
+
+## Author
+
+Adam Chan 陳駿霖，香港教育科技創業者、GRWTH 共同創辦人；曾任教育平台公司總經理，長期參與港澳學校教育科技產品、平台與生態建設。
+
+## License
+
+The memoir text, public download page, cover, preview images, EPUB, PDF, and related reader-facing materials are licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0). Public sharing is allowed for non-commercial use with attribution, provided the materials are not modified, remixed, transformed, translated into distributed derivative works, or used in a way that suggests endorsement by Adam Chan. License file: `LICENSE.md`. Official license page: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+## Caution
+
+Do not describe this memoir as a company disclosure, investment story, valuation history, or success formula. It is a personal growth memoir about education technology entrepreneurship and life transition.
