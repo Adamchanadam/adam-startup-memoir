@@ -25,7 +25,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 | `.nojekyll` | 1 | `01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B` |
 | `LICENSE` | 1551 | `67A0937737379FE02CA3FDD94A1A5408AE180F8708590F6AC69A8D356D3A0F58` |
 | `LICENSE.md` | 1551 | `67A0937737379FE02CA3FDD94A1A5408AE180F8708590F6AC69A8D356D3A0F58` |
-| `README.md` | 4999 | `30733B3268FFF17987BA6EE710194BE0C3FE4D86E20B56C987E8421747B5078A` |
+| `README.md` | 5419 | `0213CFA032A7A3836F21ABC95F9DF91247DBD04F1A7A29E4B21F1342E473C8A1` |
 | `index.html` | 27276 | `5690AB987BAD3F5DB080981A56C58E1C0C7D16B26046F07016B328A56BE059EE` |
 | `llms.txt` | 3452 | `D3649E1670B9265EA28A072C7C7EA8B88AFC7E748F881FCBDC230CD79DCF5BB8` |
 | `robots.txt` | 96 | `DD15F521107CBDA045530D5BAACB1EAE455320CE17ACF7D54061C087EBC66785` |
@@ -71,6 +71,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 - Public URL HTTP checks passed for HTML, EPUB, PDF, `LICENSE.md`, and `assets/social-preview.png`.
 - Public HTML content check passed: title, CC BY-NC-ND 4.0 license notice, EPUB link, PDF link, and strengthened author section present.
 - Fixed the sample-section buttons that previously pointed to `#`: `序章` now links to `#chapter-prologue`, `第一章` now links to `#chapter-1`, and matching chapter sections open automatically from hash links.
+- Added README public entry links for the live HTML page, GitHub repository, EPUB download, and PDF download.
 
 ## Published Status
 
