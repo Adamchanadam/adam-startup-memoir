@@ -10,11 +10,34 @@ function updateProgress() {
   progress.style.width = `${percent}%`;
 }
 
-document.querySelectorAll(".chapter-toggle").forEach((button) => {
+const chapterItems = document.querySelectorAll(".chapter-item");
+
+function setChapterOpen(item, isOpen) {
+  const button = item.querySelector(".chapter-toggle");
+  item.classList.toggle("open", isOpen);
+  button.setAttribute("aria-expanded", String(isOpen));
+}
+
+function openChapterFromHash() {
+  const id = window.location.hash.slice(1);
+  if (!id) return;
+
+  const item = document.getElementById(id);
+  if (!item || !item.classList.contains("chapter-item")) return;
+
+  chapterItems.forEach((chapterItem) => {
+    setChapterOpen(chapterItem, chapterItem === item);
+  });
+
+  item.scrollIntoView({ block: "start" });
+  updateProgress();
+}
+
+chapterItems.forEach((item) => {
+  const button = item.querySelector(".chapter-toggle");
   button.addEventListener("click", () => {
-    const item = button.closest(".chapter-item");
-    const isOpen = item.classList.toggle("open");
-    button.setAttribute("aria-expanded", String(isOpen));
+    setChapterOpen(item, !item.classList.contains("open"));
+    updateProgress();
   });
 });
 
@@ -39,4 +62,6 @@ modeToggle.addEventListener("click", () => {
 
 window.addEventListener("scroll", updateProgress, { passive: true });
 window.addEventListener("resize", updateProgress);
+window.addEventListener("hashchange", openChapterFromHash);
+openChapterFromHash();
 updateProgress();
