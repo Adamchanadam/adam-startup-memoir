@@ -31,7 +31,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 | `robots.txt` | 96 | `DD15F521107CBDA045530D5BAACB1EAE455320CE17ACF7D54061C087EBC66785` |
 | `script.js` | 2235 | `0223EEC0EBCCE92DE8D746E4CA0291F68F8BBD0E9ED69FB9AA87CDC38C21D183` |
 | `sitemap.xml` | 294 | `8B96EEC767608D97D2077A66A2E1F9AB67DDF5F0F38C659555CA73EE6098480A` |
-| `styles.css` | 11447 | `FBFC8D1FA40D706531BEA96783250937BA0C0D21BDE8AF4B47FEF7BF2534C147` |
+| `styles.css` | 11447 | `37F534B375F51A24873202AEF4AE2E6C7A9480B2D8AE6988CF104E70DA8611EE` |
 | `assets/book-cover.png` | 3646128 | `3B3D6B262A28FB722731451C0695ADBBF749EDA93CC6B16D3F46877EC0AA5CC8` |
 | `assets/ecosystem-table.png` | 2525721 | `E2FE72655451727CC7B1F7CF0FB146D3FCF0B3DA1E53E5D2AD116F6DEE5B2D11` |
 | `assets/hero-edutech-desk.png` | 2078956 | `98E166B5E38809119EDDE6917DABE7351F9AE65F862515D298093BE18032CFB0` |
@@ -75,6 +75,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 - Added HTML GitHub repository links in the eBook / HTML card and footer.
 - Removed the standalone sample-entry section because the ten-chapter route already contains the chapter reading entry points; moved `assets/thread-ecosystem.png` into the book preview section.
 - Moved `assets/thread-ecosystem.png` again into the left side of the `Adam Chan 是誰` author section, below the section title and opposite the author biography copy.
+- Increased the spacing between the author-section title and `assets/thread-ecosystem.png` by setting `.author-thread-image` margin-top to `58px`.
 
 ## Published Status
 
