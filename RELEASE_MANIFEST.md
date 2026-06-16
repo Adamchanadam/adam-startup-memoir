@@ -26,7 +26,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 | `LICENSE` | 1551 | `67A0937737379FE02CA3FDD94A1A5408AE180F8708590F6AC69A8D356D3A0F58` |
 | `LICENSE.md` | 1551 | `67A0937737379FE02CA3FDD94A1A5408AE180F8708590F6AC69A8D356D3A0F58` |
 | `README.md` | 5419 | `0213CFA032A7A3836F21ABC95F9DF91247DBD04F1A7A29E4B21F1342E473C8A1` |
-| `index.html` | 27707 | `0A4873B13C52377E204803F2F9C6A02F1776F5458B76C4CF05ADA370511B0601` |
+| `index.html` | 26880 | `BB790FDDCF24764C05E6A6C52BE51CAE5B34F1DC30980D3E7661F89093175059` |
 | `llms.txt` | 3452 | `D3649E1670B9265EA28A072C7C7EA8B88AFC7E748F881FCBDC230CD79DCF5BB8` |
 | `robots.txt` | 96 | `DD15F521107CBDA045530D5BAACB1EAE455320CE17ACF7D54061C087EBC66785` |
 | `script.js` | 2235 | `0223EEC0EBCCE92DE8D746E4CA0291F68F8BBD0E9ED69FB9AA87CDC38C21D183` |
@@ -73,6 +73,7 @@ Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 - Fixed the sample-section buttons that previously pointed to `#`: `序章` now links to `#chapter-prologue`, `第一章` now links to `#chapter-1`, and matching chapter sections open automatically from hash links.
 - Added README public entry links for the live HTML page, GitHub repository, EPUB download, and PDF download.
 - Added HTML GitHub repository links in the eBook / HTML card and footer.
+- Removed the standalone sample-entry section because the ten-chapter route already contains the chapter reading entry points; moved `assets/thread-ecosystem.png` into the book preview section.
 
 ## Published Status
 
