@@ -318,6 +318,10 @@ h3 {
   align-items: start;
 }
 
+.author-thread-image {
+  margin-top: 34px;
+}
+
 .author-copy p:first-child {
   margin-top: 0;
 }
