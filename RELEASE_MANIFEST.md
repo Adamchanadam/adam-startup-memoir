@@ -2,7 +2,13 @@
 
 Generated: 2026-06-16
 
-This folder is a local staging package for Adam Chan's memoir public download site. It has not been uploaded to GitHub, deployed to GitHub Pages, or otherwise published.
+This folder is the local source package used to publish Adam Chan's memoir public download site to GitHub Pages.
+
+Published repository: `https://github.com/Adamchanadam/adam-startup-memoir`
+
+Live public URL: `https://adamchanadam.github.io/adam-startup-memoir/`
+
+Initial package commit: `7290ef73dbe0fc482cea4b241ffdbed8c068fd74`
 
 ## Source Inputs
 
@@ -59,17 +65,21 @@ This folder is a local staging package for Adam Chan's memoir public download si
 - Added HTML metadata: canonical, robots, author, keywords, Open Graph, Twitter Card, and JSON-LD for WebPage / Book / FAQPage.
 - Added CC BY-NC-ND 4.0 usage boundary to HTML footer, README, `llms.txt`, and `LICENSE.md`.
 - Machine checks after metadata update: local reference missing count 0; JSON-LD parse count 1; Open Graph tags 10; Twitter Card tags 5; canonical URL present; social preview image is 1280×640.
+- Uploaded package to `Adamchanadam/adam-startup-memoir` `main`.
+- Enabled GitHub Pages from `main` branch root `/`.
+- GitHub Pages build status: built.
+- Public URL HTTP checks passed for HTML, EPUB, PDF, `LICENSE.md`, and `assets/social-preview.png`.
+- Public HTML content check passed: title, CC BY-NC-ND 4.0 license notice, EPUB link, PDF link, and strengthened author section present.
 
-## Not Yet Done
+## Published Status
 
-- GitHub repository selected and manually created: `https://github.com/Adamchanadam/adam-startup-memoir`.
-- Repository license currently shows `CC0-1.0`; replace with `CC BY-NC-ND 4.0` before final public release.
-- No GitHub remote has been configured.
-- No GitHub Pages deployment has been performed.
-- No live public URL has been created.
-- No post-deployment download test has been run.
-- The staged canonical URL is `https://adamchanadam.github.io/adam-startup-memoir/`. Replace it before deployment if the final GitHub Pages URL differs.
+- GitHub repository: `https://github.com/Adamchanadam/adam-startup-memoir`
+- GitHub Pages URL: `https://adamchanadam.github.io/adam-startup-memoir/`
+- GitHub Pages source: `main` branch, root `/`
+- GitHub Pages HTTPS: enforced
+- Repository license file: replaced from `CC0-1.0` to `CC BY-NC-ND 4.0` terms in `LICENSE` and `LICENSE.md`
+- GitHub API `licenseInfo`: `Other`, because GitHub's public license API does not list `CC-BY-NC-ND-4.0`; the repository license file itself contains the SPDX identifier `CC-BY-NC-ND-4.0` and official Creative Commons links.
 
 ## Release Boundary
 
-Do not upload, deploy, publish, or expose this package publicly until Adam explicitly approves the target repository, public URL, and release action.
+Published on 2026-06-16 after Adam explicitly approved external operations. Future changes to the repository, GitHub Pages settings, release assets, or public URLs still require explicit approval before execution.
